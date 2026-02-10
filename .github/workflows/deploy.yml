@@ -1,4 +1,4 @@
-name: 部署到GitHubPages
+name: 部署网站
 
 on:
   # 每次推送到 `main` 分支时触发这个“工作流程”
@@ -19,7 +19,7 @@ jobs:
     steps:
       - name:  使用git检出代码
         uses: actions/checkout@v4
-      - name: Install, build, and upload your site
+      - name: 安装、构建并上传您的站点
         uses: withastro/action@v3
       - name: 打印目录结构
         run: |
@@ -41,6 +41,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy to GitHub Pages
+      - name: 发布到GitHubPages
         id: deployment
         uses: actions/deploy-pages@v4
