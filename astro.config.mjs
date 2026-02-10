@@ -1,3 +1,8 @@
+/*
+ * @Author: Floppy
+ * @LastEditors: Floppy
+ * @Description: 
+ */
 // @ts-check
 
 import mdx from '@astrojs/mdx';
@@ -11,6 +16,7 @@ export default defineConfig({
     devToolbar: {
         enabled: false,
     },
-    site: 'https://example.com',
+    site: 'https://szbuye.github.io',
+    // base: 'my-repo',
     integrations: [mdx(), sitemap(), vue()],
 });
