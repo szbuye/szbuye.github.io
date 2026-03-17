@@ -13,7 +13,7 @@
     "@astrojs/mdx": "^4.3.13",
     "@astrojs/rss": "^4.0.15",
     "@astrojs/sitemap": "^3.7.0",
-    "@astrojs/vue": "^5.1.4",
+    "@astrojs/vue": "^6.0.1",
     "astro": "^5.16.16",
     "sharp": "^0.34.3",
     "swiper": "^12.1.0",
